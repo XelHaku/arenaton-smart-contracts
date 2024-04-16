@@ -1,46 +1,49 @@
-Arenaton Smart Contracts
-Introduction
+# Arenaton Smart Contracts
+
+## Introduction
 
 This repository hosts the Arenaton Smart Contracts, designed for our decentralized betting platform built on the Ethereum blockchain. The smart contracts facilitate a transparent, secure, and fair betting system using a Parimutuel model, comprehensive NFT integration, and sophisticated stablecoin mechanics.
 Features
 
-    Parimutuel Betting System: Bets are pooled together, with dynamically adjusting odds based on collective stakes.
-    Commission Sharing: Incentivizes token holders by distributing a portion of platform earnings.
-    NFT Integration: Enhances user engagement through staking mechanisms and rewards.
-    Stablecoin Mechanics: Ensures smooth and secure transaction processes within the platform.
+- Parimutuel Betting System: Bets are pooled together, with dynamically adjusting odds based on collective stakes.
+- Commission Sharing: Incentivizes token holders by distributing a portion of platform earnings.
+- NFT Integration: Enhances user engagement through staking mechanisms and rewards.
+- Stablecoin Mechanics: Ensures smooth and secure transaction processes within the platform.
 
-Prerequisites
+## Prerequisites
 
     Foundry
     Solidity 0.8.x or higher
 
-Setup
+## Setup
 
 To set up and run this project, follow these steps:
 Installing Foundry
 
 Foundry is a fast, portable, and modular toolkit for Ethereum application development written in Rust. Install Foundry using the following command:
 
-bash
-
+```bash
 curl -L https://foundry.paradigm.xyz | bash
 foundryup
+```
 
-Cloning the Repository
+## Cloning the Repository
 
-bash
+```bash
 
 git clone https://github.com/XelHaku/arenaton-smart-contracts.git
 cd arenaton-smart-contracts
+```
 
-Installing Dependencies
+## Installing Dependencies
 
 Foundry uses forge to manage Solidity projects. Initialize your project (if necessary) and install any dependencies:
 
-bash
+```bash
 
 forge init
 forge install
+```
 
 Building and Testing
 
@@ -52,7 +55,7 @@ forge build
 forge test
 ```
 
-Usage
+## Usage
 
 After setting up the project, you can deploy the contracts to a local testnet or live network using:
 
@@ -74,7 +77,7 @@ Contributions are what make the open-source community such an amazing place to l
     Open a Pull Request
 ```
 
-License
+## License
 
 Distributed under the GPL-3.0 License. See LICENSE for more information.
 
