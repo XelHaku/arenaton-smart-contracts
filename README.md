@@ -46,34 +46,41 @@ Building and Testing
 
 Compile the smart contracts and run tests to ensure everything is working correctly:
 
-bash
+```bash
 
 forge build
 forge test
+```
 
 Usage
 
 After setting up the project, you can deploy the contracts to a local testnet or live network using:
 
-bash
+```bash
 
 forge create --rpc-url <RPC_URL> src/Contract.sol:ContractName
+```
 
 Replace <RPC_URL> with your Ethereum node's URL and ContractName with the actual contract name.
 Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
+```
     Fork the Project
     Create your Feature Branch (git checkout -b feature/YourAmazingFeature)
     Commit your Changes (git commit -m 'Add some AmazingFeature')
     Push to the Branch (git push origin feature/YourAmazingFeature)
     Open a Pull Request
+```
 
 License
 
 Distributed under the GPL-3.0 License. See LICENSE for more information.
+
 Contact
 
-    Your Name - juantamez@arenaton.com
-    Project Link - https://github.com/XelHaku/arenaton-smart-contracts
+```
+    Juan Tamez - juantamez@arenaton.com
+   https://github.com/XelHaku/arenaton-smart-contracts
+```
